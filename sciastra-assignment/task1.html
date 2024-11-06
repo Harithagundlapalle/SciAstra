@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SciAstra - Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to SciAstra</h1>
+        <p>Explore our discounted courses!</p>
+    </header>
+    <section id="course-list">
+        <ol>Python</ol>
+        <ol>Java</ol>
+        <ol>Machine Learning</ol>
+        <ol>AWS</ol>
+        <ol>Web development</ol>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Page</title>
+</head>
+<body>
+    <h2>Select Payment Method</h2>
+    <form action="backend/process_payment.php" method="POST">
+        <label><input type="radio" name="payment_method" value="credit_card" required> Credit Card</label><br>
+        <label><input type="radio" name="payment_method" value="debit_card" required> Debit Card</label><br>
+        <label><input type="radio" name="payment_method" value="upi" required> UPI</label><br>
+        <button type="submit">Pay Now</button>
+    </form>
+</body>
+</html>
+

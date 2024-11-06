@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Page</title>
+</head>
+<body>
+    <h2>Select Payment Method</h2>
+    <form action="backend/process_payment.php" method="POST">
+        <label><input type="radio" name="payment_method" value="credit_card" required> Credit Card</label><br>
+        <label><input type="radio" name="payment_method" value="debit_card" required> Debit Card</label><br>
+        <label><input type="radio" name="payment_method" value="upi" required> UPI</label><br>
+        <button type="submit">Pay Now</button>
+    </form>
+</body>
+</html>
+
